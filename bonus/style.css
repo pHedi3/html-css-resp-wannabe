@@ -74,7 +74,7 @@ img {
 
 /* risoluzione esercizo  */
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:576px) {
   * {
     box-sizing: border-box;
     margin: 0;
@@ -124,4 +124,80 @@ img {
     height: 100px;
   }
 
+}
+
+
+@media screen and (min-width:576px) and (max-width:786px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .row h1 {
+    font-size: 36px;
+  }
+
+
+  .row {
+    width: 100%;
+    margin-top: 0;
+    padding: 30px;
+  }
+
+
+  #lezioni .row .right, #lezioni .row .left {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .container {
+    background-color: turquoise;
+  }
+
+  .container.grey {
+    background-color: tomato;
+  }
+
+  #steps .row .left, #steps .row .central {
+    width: 50%;
+    margin-top: 30px;
+  }
+  
+  #steps .row .right {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  #why.container.grey {
+    background-color: tan;
+  }
+
+  #why .row .first, #why .row .second, #why .row .third {
+    border-bottom: 1px solid whitesmoke;
+    margin-top: 20px;
+  }
+
+  hr {
+    display: none;
+  }
+
+  #why .row .third img {
+    margin-top: 30px;
+  }
+
+
+  #why .row .first, #why .row .second {
+    width: 50%;
+    float: left;
+    height: 240px;
+    
+  }
+
+
+  img {
+    height: 100px;
+  }
+
+  
 }
