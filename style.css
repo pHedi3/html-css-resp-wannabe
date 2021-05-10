@@ -71,3 +71,48 @@ img {
 .clear {
   clear: both;
 }
+
+/* risoluzione esercizo  */
+
+@media screen and (max-width:575px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .row {
+    width: 100%;
+    margin-top: 0;
+  }
+
+
+  #lezioni .row .right, #lezioni .row .left {
+    width: 100%;
+  }
+
+  .container {
+    background-color: wheat;
+  }
+
+  .container.grey {
+    background-color: white;
+  }
+
+  #steps .row .left, #steps .row .central, #steps .row .right {
+    width: 100%;
+  }
+
+  #why.container.grey {
+    background-color: wheat;
+  }
+
+  #why .row .first, #why .row .second, #why .row .third {
+    margin-top: 0;
+    border-bottom: 1px solid black;
+  }
+
+
+
+}
